@@ -11,8 +11,9 @@ repositories {
 
 jar {
     manifest {
-        attributes 'Main-Class': 'src.main.kotlin.Main'
+        attributes 'Main-Class': 'me.hechfx.kotlin.calculator.project.Main'
     }
+    from { configurations.compileClasspath.collect { it.isDirectory() ? it : zipTree(it) } }
 }
 
 dependencies {
