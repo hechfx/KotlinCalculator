@@ -20,10 +20,10 @@ class Main(args: Array<String>) {
             val value3 = scanner3.nextLong();
 
             when {
-                value2 == "dividir" -> println("Resultado: ${Calculadora(value).dividir(value3)}")
-                value2 == "multiplicar" -> println("Resultado: ${Calculadora(value).multiplicar(value3)}")
-                value2 == "adicionar" -> println("Resultado: ${Calculadora(value).adicionar(value3)}")
-                value2 == "subtrair" -> println("Resultado: ${Calculadora(value).subtrair(value3)}")
+                value2 == "dividir" -> println("Resultado: ${Calculator(value).divide(value3)}")
+                value2 == "multiplicar" -> println("Resultado: ${Calculator(value).multiply(value3)}")
+                value2 == "adicionar" -> println("Resultado: ${Calculator(value).add(value3)}")
+                value2 == "subtrair" -> println("Resultado: ${Calculator(value).subtract(value3)}")
             }
 
         }
