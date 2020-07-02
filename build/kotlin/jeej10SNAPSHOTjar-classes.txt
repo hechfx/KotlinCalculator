@@ -1,0 +1,1 @@
+C:\Users\Hech\Desktop\Kotlin\jeej\build\classes\kotlin\main\src\main\kotlin\Calculadora.class;C:\Users\Hech\Desktop\Kotlin\jeej\build\classes\kotlin\main\src\main\kotlin\Main$Companion.class;C:\Users\Hech\Desktop\Kotlin\jeej\build\classes\kotlin\main\src\main\kotlin\Main.class
